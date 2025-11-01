@@ -26,11 +26,13 @@ public class h3_main {
             k = -10;
         }
 
-        //  k wird nun entweder 1, 2 oder 3 sein je nachdem wie viele der Aussagen wahr sind. Sollten alle Aussagen falsch sein entspricht k = 4 und 
+        //  k wird nun entweder 1, 2 oder 3 sein, je nachdem welche Kombination der Aussagen wahr ist. Sollten alle Aussagen falsch sein entspricht k = 4 und 
         //  und wenn irgend etwas anderes passieren sollte bleibt k = -10
         
         System.out.println("Werte: i=" + i + ", j=" + j);
         System.out.println("Ausdrücke: 1 (i>j)=" + ausdruck1 + ", 2 (i>200)=" + ausdruck2 + ", 3 (j>100)=" + ausdruck3);
         System.out.println("Endwert von k: " + k);
+
+        //  über die zweite println (line 33) kann der Benutzer erfahren welche der Aussage als true oder false gewertet worden sind.
     }
 }
